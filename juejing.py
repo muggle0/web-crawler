@@ -16,7 +16,7 @@ findBd = re.compile(r'<p class="">(.*?)</p>', re.S)
 
 
 def main():
-    baseurl = "https://blog.csdn.net/weixin_73588491/article/details/139947478?spm=1001.2100.3001.7377&utm_medium=distribute.pc_feed_blog_category.none-task-blog-classify_tag-1-139947478-null-null.nonecase&depth_1-utm_source=distribute.pc_feed_blog_category.none-task-blog-classify_tag-1-139947478-null-null.nonecase"  #要爬取的网页链接
+    baseurl = "http://bang.dangdang.com/books/fivestars/01.00.00.00.00.00-recent30-0-0-1-1"  #要爬取的网页链接
     # 1.爬取网页
     datalist = getData(baseurl)
     savepath = "csdn.xls"    #当前目录新建XLS，存储进去
